@@ -19,7 +19,7 @@ public class LoginController {
    // @Autowired
    // private SysUserService userService;
 
-    @GetMapping(value = "/login")
+    @GetMapping(value = "/login1")
     public String loginCheck() {
     	log.info("测试");
         return "/login";
